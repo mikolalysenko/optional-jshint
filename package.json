@@ -1,6 +1,6 @@
 {
   "name": "optional-jshint",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Same as sindresorhus' jshint atom plug in, but only runs if you have a .jshintrc",
   "license": "MIT",
   "repository": "https://github.com/mikolalysenko/optional-jshint",
