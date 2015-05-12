@@ -184,7 +184,12 @@ function lint() {
 		return;
 	}
 
-	var config = file ? loadConfig()(file) : {};
+	var config = file ? loadConfig()(file) : null;
+
+	//Don't run jshint if there is no config file. -Mik
+	if(!config) {
+		return;
+	}
 
 	var linter = (atom.config.get('jshint.supportLintingJsx') || atom.config.get('jshint.transformJsx')) ? jsxhint().JSXHINT : jshint().JSHINT;
 

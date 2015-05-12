@@ -100,7 +100,7 @@ function loadConfigIfValid(filename) {
 		return cli.loadConfig(filename);
 	} catch (e) {
 	}
-	return {};
+	return null;
 }
 
 module.exports = function (file) {

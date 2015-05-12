@@ -1,14 +1,13 @@
 {
-  "name": "jshint",
-  "version": "1.3.6",
-  "description": "Validate JavaScript with JSHint. In realtime or on save. Supports JSX (React).",
+  "name": "optional-jshint",
+  "version": "1.0.0",
+  "description": "Same as sindresorhus' jshint atom plug in, but only runs if you have a .jshintrc",
   "license": "MIT",
-  "repository": "sindresorhus/atom-jshint",
+  "repository": "https://github.com/mikolalysenko/optional-jshint",
   "private": true,
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Mikola Lysenko",
+    "email": "mikolalysenko@gmail.com"
   },
   "engines": {
     "atom": ">=0.190.0"
@@ -17,7 +16,8 @@
     "lint",
     "javascript",
     "validate",
-    "jshint"
+    "jshint",
+    "optional"
   ],
   "dependencies": {
     "emissary": "^1.0.0",
